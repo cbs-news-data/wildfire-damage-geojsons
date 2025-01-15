@@ -5,7 +5,9 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 16 * * *" # Runs once a day at 8 am pst
+    cron:
+      - "30 15 * * *" # 7:30 AM PST
+      - "30 3 * * *"  # 7:30 PM PST
   workflow_dispatch:
 
 jobs:

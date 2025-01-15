@@ -39,7 +39,7 @@ lapply(seq_along(split_palisades), function(i) {
   sanitized_name <- gsub("[^[:alnum:]_]", "_", damage_name)  # Replace non-alphanumeric characters with underscores
   st_write(
     split_palisades[[i]], 
-    paste0("output/eaton/", sanitized_name, "_damage.geojson"),
+    paste0("output/palisades/", sanitized_name, "_damage.geojson"),
     append = FALSE  # Overwrite the file if it exists
   )
 })

@@ -16,7 +16,11 @@ split_eaton <- eaton %>%
 lapply(seq_along(split_eaton), function(i) {
   damage_name <- unique(split_eaton[[i]]$DAMAGE)  # Get the unique damage name
   sanitized_name <- gsub("[^[:alnum:]_]", "_", damage_name)  # Replace non-alphanumeric characters with underscores
-  st_write(split_eaton[[i]], paste0("output/eaton/", sanitized_name, "_damage.geojson"))
+  st_write(
+    split_eaton[[i]], 
+    paste0("output/eaton/", sanitized_name, "_damage.geojson"),
+    append = FALSE  # Overwrite the file if it exists
+  )
 })
 
 # PALISADES
@@ -33,5 +37,9 @@ split_palisades <- palisades %>%
 lapply(seq_along(split_palisades), function(i) {
   damage_name <- unique(split_palisades[[i]]$DAMAGE)  # Get the unique damage name
   sanitized_name <- gsub("[^[:alnum:]_]", "_", damage_name)  # Replace non-alphanumeric characters with underscores
-  st_write(split_palisades[[i]], paste0("output/palisades/", sanitized_name, "_damage.geojson"))
+  st_write(
+    split_palisades[[i]], 
+    paste0("output/eaton/", sanitized_name, "_damage.geojson"),
+    append = FALSE  # Overwrite the file if it exists
+  )
 })

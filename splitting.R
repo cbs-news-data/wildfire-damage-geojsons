@@ -1,5 +1,7 @@
 library(sf)
 library(dplyr)
+library(DatawRappr)
+library(dotenv)
 
 #EATON
 # Load  GeoJSON from URL
@@ -42,3 +44,66 @@ lapply(seq_along(split_palisades), function(i) {
     append = FALSE  # Overwrite the file if it exists
   )
 })
+
+# Checking each main file to make sure it changed by creating a bar chart
+damage_summary_palisades <- palisades %>%
+  group_by(DAMAGE) %>%
+  summarize(count = n(), .groups = "drop")
+
+damage_summary_eaton <- eaton %>%
+  group_by(DAMAGE) %>%
+  summarize(count = n(), .groups = "drop")
+
+# Get current date and time in UTC
+current_datetime_utc <- Sys.time()
+
+# Convert UTC to Eastern Time
+current_datetime_eastern <- with_tz(current_datetime_utc, "America/New_York")
+
+# Round the datetime to the nearest hour
+rounded_datetime <- round_date(current_datetime_eastern, "hour")
+
+# Format the date and time
+formatted_datetime <- format(rounded_datetime, "%B %e, %Y at %l %p ET.")
+
+# Load the .env file
+tryCatch({
+  load_dot_env()
+}, error = function(e) {
+  # Do nothing
+})
+dw_api_key <- Sys.getenv("DW_API_KEY")
+
+# Make the Datawrapper
+datawrapper_auth(api_key = dw_api_key)
+dw_data_to_chart(damage_summary_palisades, "WfBZU", api_key = dw_api_key)
+
+dw_edit_chart(
+  chart_id = "WfBZU",
+  api_key = dw_api_key,
+  title = "Damage in Palisades",
+  byline = "Taylor Johnston / CBS News",
+  annotate = paste(
+    "Note: Last updated", formatted_datetime),
+  folderId = "287712"
+)
+
+# Publish the chart
+dw_publish_chart(chart_id = "WfBZU")
+
+# Make the Datawrapper
+datawrapper_auth(api_key = dw_api_key)
+dw_data_to_chart(damage_summary_eaton, "Fufx8", api_key = dw_api_key)
+
+dw_edit_chart(
+  chart_id = "Fufx8",
+  api_key = dw_api_key,
+  title = "Damage in Eaton",
+  byline = "Taylor Johnston / CBS News",
+  annotate = paste(
+    "Note: Last updated", formatted_datetime),
+  folderId = "287712"
+)
+
+# Publish the chart
+dw_publish_chart(chart_id = "Fufx8")

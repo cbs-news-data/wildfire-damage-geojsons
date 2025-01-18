@@ -3,6 +3,7 @@
 "name": "Major__26_50___damage",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "OBJECTID": 506, "GLOBALID": "064a6476-c117-4545-9daf-9c3de94d6c26", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Multi Story" }, "geometry": { "type": "Point", "coordinates": [ -118.066605977451999, 34.173906576569998 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 7644, "GLOBALID": "c55ed150-6634-4066-82df-446d588d2c24", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.095843013812996, 34.165766633444399 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 7645, "GLOBALID": "6fa32036-2702-4628-b330-de2d75e6c0b0", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.095669170042001, 34.1658203889723 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 7790, "GLOBALID": "31bf2a51-4835-43de-93a6-e4f01a21fcd1", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.095843526750997, 34.1653679151934 ] } },

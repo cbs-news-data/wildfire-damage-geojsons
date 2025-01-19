@@ -11,6 +11,7 @@
 { "type": "Feature", "properties": { "OBJECTID": 11456, "GLOBALID": "7d6ac516-d720-4926-a4fc-e7453bca6c07", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.139479294085007, 34.211073583673603 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 11485, "GLOBALID": "1882e5ee-90fb-4d28-818b-41c02197c72a", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.138747899254994, 34.211078644182301 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 11510, "GLOBALID": "9a3c3c50-f89b-48fd-bd7b-5e6953387581", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Multi Story" }, "geometry": { "type": "Point", "coordinates": [ -118.138951005646007, 34.2089560178716 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 11544, "GLOBALID": "7d7bffc7-a87c-4c1d-965f-74d19b8d03c7", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.138764846870998, 34.209042905203802 ] } }
+{ "type": "Feature", "properties": { "OBJECTID": 11544, "GLOBALID": "7d7bffc7-a87c-4c1d-965f-74d19b8d03c7", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.138764846870998, 34.209042905203802 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 14604, "GLOBALID": "35adb9ea-bd93-4760-85d2-e2f99cc7e244", "DAMAGE": "Inaccessible", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.125981270609003, 34.194778178020002 ] } }
 ]
 }

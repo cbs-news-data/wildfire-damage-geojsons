@@ -9415,6 +9415,7 @@
 { "type": "Feature", "properties": { "OBJECTID": 17530, "GLOBALID": "1612a38b-ec34-4a76-abc7-11c25995c92e", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.135025231724001, 34.20812581589 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 17537, "GLOBALID": "f5b260dd-9b61-4a7a-a682-a40fcbb30172", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.136217024401006, 34.206044506097001 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 17859, "GLOBALID": "83b52130-7810-49f5-b70c-530853507bf9", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.102333015651993, 34.182677566926699 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 18619, "GLOBALID": "7d8c7cf3-ed86-4499-9320-7425e3956efd", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.055615393580993, 34.169719998006599 ] } }
+{ "type": "Feature", "properties": { "OBJECTID": 18619, "GLOBALID": "7d8c7cf3-ed86-4499-9320-7425e3956efd", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.055615393580993, 34.169719998006599 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 18621, "GLOBALID": "2b9ef331-fabf-4b69-ae17-815af435cded", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.159774409378002, 34.194265574565897 ] } }
 ]
 }

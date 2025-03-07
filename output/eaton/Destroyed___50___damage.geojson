@@ -9418,6 +9418,8 @@
 { "type": "Feature", "properties": { "OBJECTID": 18619, "GLOBALID": "7d8c7cf3-ed86-4499-9320-7425e3956efd", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.055615393580993, 34.169719998006599 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 18621, "GLOBALID": "2b9ef331-fabf-4b69-ae17-815af435cded", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.159774409378002, 34.194265574565897 ] } },
 { "type": "Feature", "properties": { "OBJECTID": 18622, "GLOBALID": "d2a08784-bf8c-4393-8314-e83b65444abe", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.148680867796003, 34.188726401576297 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 18623, "GLOBALID": "740d330d-eee7-4044-9b20-6641f27460f1", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.133402816415, 34.205673515599898 ] } }
+{ "type": "Feature", "properties": { "OBJECTID": 18623, "GLOBALID": "740d330d-eee7-4044-9b20-6641f27460f1", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.133402816415, 34.205673515599898 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 18624, "GLOBALID": "04355476-080e-4767-9168-be2a69082312", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Utility Misc Structure" }, "geometry": { "type": "Point", "coordinates": [ -118.057728269757007, 34.173141932191697 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 18625, "GLOBALID": "7dd475c8-6bb2-42b7-9f8c-6b2b498177e2", "DAMAGE": "Destroyed (>50%)", "STRUCTURETYPE": "Single Family Residence Single Story" }, "geometry": { "type": "Point", "coordinates": [ -118.059040024769004, 34.1734455798643 ] } }
 ]
 }
